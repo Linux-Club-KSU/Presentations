@@ -49,19 +49,20 @@ If you still need windows, you can use windows and linux at the same time, and r
 
 == Which Distro (Version) Should You Pick?
 LCKSU Recommends a few starter distros:
-- ZorinOS (#link("https://zorin.com/os/")[zorin.com/os])
-- Linux Mint (#link("https://linuxmint.com/")[linuxmint.com])
-- Bazzite (#link("https://bazzite.gg/")[bazzite.gg])
+- ZorinOS (#link("https://zorin.com/os/")[zorin.com/os]) -> More general OS
+- Linux Mint (#link("https://linuxmint.com/")[linuxmint.com]) -> Best intro for Linux specifically
+- Bazzite (#link("https://bazzite.gg/")[bazzite.gg]) -> Best for beginner gaming
 Be sure to check out their websites to find which is best for you.
 
 == The Boot USB
-Once you download the linux ISO, you need to put it on an USB drive (> 8Gb). There are a few ways to do this, but for beginners we recommend #link("https://etcher.balena.io/")[balenaEtcher] for a simple, 3-click process.
+Once you download the linux ISO/IMG, you need to put it on an USB drive (> 8Gb). There are a few ways to do this, but for beginners we recommend #link("https://etcher.balena.io/")[balenaEtcher] for a simple, 3-click process.
 
-#image("assets/BalenaEtcher.png",
-  width: 70%
-)
+#align(center)[
+  #image("assets/BalenaEtcher.png",
+    width: 75%,
+)]
 
-== Completing the Switching
+== Completing the Switch
 
 == Learning Linux (What Makes It Different)
 
