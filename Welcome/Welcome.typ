@@ -46,6 +46,13 @@ Welcome Slides for the LCKSU
 
 == What We Plan To Do
 // Add with other slide topics
+We plan to talk about and work on some special topics:
+- 3D printing
+- Homelabs
+- Gaming
+- Parallel Computation
+- Security
+- and many more!
 
 == Whats Special About These Slides
 - This presentation, and future, are written using a FOSS language known as typst
@@ -62,18 +69,18 @@ To contact the team, please use ```@sudo``` in the Discord
   stroke: none,
   align: center + horizon,
   
-  table.header([*Role*], [*Name*]),
+  table.header([*Role*], [*Discord Name*]),
   table.hline(),
   // Content
-  [President], [Jacob Evans],
+  [President], [Jacob],
   // Other officers please put your preferred name in!
-  [Vice-President], [],
-  [Tresurer], [],
-  [Marketing Officer], [],
-  [Secretary], []
+  [Vice-President], [CliffR.],
+  [Tresurer], [Greg],
+  [Marketing Officer], [rhomennoodlez],
+  [Secretary], [bluebnnt]
 )
 
-== Any Questions
+== Any Questions?
 
 == Thank You
 Its great to see you all, and we are excited to kick the semester off!
