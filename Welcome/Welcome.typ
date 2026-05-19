@@ -45,6 +45,7 @@ Welcome Slides for the LCKSU
 - At its core, LCKSU wants to lower the barrier for learning and sharing linux
 
 == What We Plan To Do
+// Add with other slide topics
 
 == Whats Special About These Slides
 - This presentation, and future, are written using a FOSS language known as typst
