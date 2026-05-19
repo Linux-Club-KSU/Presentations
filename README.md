@@ -8,3 +8,7 @@ At the Linux Club at KSU (LCKSU), we are commited to upholding associated linux 
 
 ## Welcome Week
 This presentation covers who we are, and our plans for the semester, and will help us gather feedback leading into the semester.
+
+## Instalathons
+A simple guide to installing linux, while not too in-depth, does provide a good starting point if you have never done it before, and links to resources where you can learn more.
+It also provides a list of LCKSU recommended starter distros, which any member can reques to add to.
