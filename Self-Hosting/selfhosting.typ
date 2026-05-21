@@ -27,6 +27,7 @@ Self Hosting Slides for the LCKSU
 == What is Self-Hosting?
 
 == Why it is Important
+// Cover plex price increase
 
 == Some Popular Self-Hosted Services
 
