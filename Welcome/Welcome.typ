@@ -29,7 +29,7 @@ Welcome Slides for the LCKSU
 - Referred to as LCKSU
 - We cover all levels of linux (and even some unix/alternative OS)
 - No matter your skill level, we have something you can learn here
-- We meet fridays at 4PM in *J2112* (across from the python tutoring in the _Atrium_)
+- We meet fridays at 4PM in *Room Pending*
 
 == What We have Done
 - We have had many members make a bunch of projects using linux
@@ -52,6 +52,7 @@ We plan to talk about and work on some special topics:
 - Gaming
 - Parallel Computation
 - Security
+- CAD and CNC
 - and many more!
 
 == Whats Special About These Slides
@@ -79,6 +80,32 @@ To contact the team, please use ```@sudo``` in the Discord
   [Marketing Officer], [rhomennoodlez],
   [Secretary], [bluebnnt]
 )
+== Schedule
+#table(
+  // Header
+  columns: (40%, 50%),
+  stroke: none,
+  align: horizon,
+  
+  table.header([*Date*], [*Topic*]),
+  table.hline(),
+  // Content
+  [Sept. 4], [Welcome + Intro],
+  [Sept. 11], [Pending],
+  [Sept. 18], [Pending],
+  [Sept. 25], [Pending],
+  [Oct. 2], [Pending],
+  [Oct. 9], [Pending],
+  [Oct. 16], [Pending],
+  [Oct. 23], [Pending],
+  [Oct. 30], [Pending],
+  [Nov. 6], [Pending],
+  [Nov. 13], [Pending],
+  [Nov. 20], [Pending],
+  [Dec. 4], [Pending],
+  [Dec. 11], [Pending]
+)
+
 
 == Any Questions?
 
