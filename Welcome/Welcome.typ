@@ -91,19 +91,19 @@ To contact the team, please use ```@sudo``` in the Discord
   table.hline(),
   // Content
   [Sept. 4], [Welcome + Intro],
-  [Sept. 11], [Pending],
-  [Sept. 18], [Pending],
-  [Sept. 25], [Pending],
-  [Oct. 2], [Pending],
-  [Oct. 9], [Pending],
-  [Oct. 16], [Pending],
-  [Oct. 23], [Pending],
-  [Oct. 30], [Pending],
-  [Nov. 6], [Pending],
-  [Nov. 13], [Pending],
+  [Sept. 11], [Guide to Distros],
+  [Sept. 18], [CAD + LinuxCNC],
+  [Sept. 25], [Ricing],
+  [Oct. 2], [Hackathon Begin],
+  [Oct. 9], [Hackathon End],
+  [Oct. 16], [Gaming],
+  [Oct. 23], [Selfhosting],
+  [Oct. 30], [AI],
+  [Nov. 6], [Productivity Tools],
+  [Nov. 13], [Technical Writing],
   [Nov. 20], [Pending],
   [Dec. 4], [Pending],
-  [Dec. 11], [Pending]
+  [Dec. 11], [End of Semester Party]
 )
 
 
