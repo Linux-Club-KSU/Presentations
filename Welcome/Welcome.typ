@@ -92,8 +92,8 @@ To contact the team, please use ``` @sudo``` in the Discord
   // Content
   [Sept. 4], [Welcome + Intro],
   [Sept. 11], [Guide to Distros],
-  [Sept. 18], [CAD + LinuxCNC],
-  [Sept. 25], [Ricing],
+  [Sept. 18], [Getting to a Desktop],
+  [Sept. 25], [Users Manual],
   [Oct. 2], [*REDACTED* Begin],
   [Oct. 9], [*REDACTED* End],
   [Oct. 16], [Gaming],
@@ -110,12 +110,22 @@ To contact the team, please use ``` @sudo``` in the Discord
 - Any changes will hopefully be made *2 weeks* in advance
 
 == Wait??? Redacted?
-- In the past, we held *Installathions* to encourage participation and get people installing/using linux
+- In the past, we held *Installathons* to encourage participation and get people installing/using linux
 - As time went on these "special events" became less special and more like normal meetings with a special label.
 - This semester we want to do something _a bit different_
 
 == Hackathon
 #figure(image("assets/Hackathon_Poster.png"))
+
+== Future Collaborations
+We are currently working with professors at the college of computing and 
+software engineeering (CCSE) to have a multi-stage bootcamp covering multiple 
+levels of topics including:
+- Installations (Distros & Daily Driving)
+- Interfaces (GUI & TTY)
+- Hardware functions & low-level operations
+
+These will _hopefully_ be offered in addition to our regular semester program TBD
 
 == Thank You
 Its great to see you all, and we are excited to kick the semester off!
