@@ -27,6 +27,8 @@ Welcome Slides for the LCKSU
 == Who We Are
 - We are the Linux Club at Kennesaw State University
 - Referred to as LCKSU
+- Founded in the fall of 2024
+- \~140 members
 - We cover all levels of linux (and even some unix/alternative OS)
 - No matter your skill level, we have something you can learn here
 - We meet fridays at 4PM in *Room Pending*
@@ -39,21 +41,10 @@ Welcome Slides for the LCKSU
 
 == Why We Do It
 - This club was formed because we wanted to build a linux community at KSU
-- Many were fed up with Windows and the corperate "slop" forced in our operating system
+- Many were fed up with Windows and the corperate "slop" forced in our operating systems
 - Some wanted more freedom and control over their system
 - Some wanted better performance and hardware support
 - At its core, LCKSU wants to lower the barrier for learning and sharing linux and similar ideals
-
-== What We Plan To Do
-// Add with other slide topics
-We plan to talk about and work on some special topics:
-- 3D printing
-- Homelabs
-- Gaming
-- Parallel Computation
-- Security
-- CAD and CNC
-- and many more!
 
 == Whats Special About These Slides
 - This presentation, and future, are written using a FOSS language known as *typst*
@@ -93,14 +84,14 @@ To contact the team, please use ``` @sudo``` in the Discord
   [Sept. 4], [Welcome + Intro],
   [Sept. 11], [Guide to Distros],
   [Sept. 18], [Getting to a Desktop],
-  [Sept. 25], [Users Manual],
+  [Sept. 25], [The Users Manual],
   [Oct. 2], [*REDACTED* Begin],
   [Oct. 9], [*REDACTED* End],
-  [Oct. 16], [Gaming],
-  [Oct. 23], [Selfhosting],
-  [Oct. 30], [AI],
-  [Nov. 6], [Productivity Tools],
-  [Nov. 13], [Technical Writing],
+  [Oct. 16], [Pending],
+  [Oct. 23], [Pending],
+  [Oct. 30], [Pending],
+  [Nov. 6], [Pending],
+  [Nov. 13], [Pending],
   [Nov. 20], [Pending],
   [Dec. 4], [Pending],
   [Dec. 11], [End of Semester Party]
@@ -108,6 +99,24 @@ To contact the team, please use ``` @sudo``` in the Discord
 
 - This schedule is subject to change within reason
 - Any changes will hopefully be made *2 weeks* in advance
+
+== What We Plan To Do
+// Add with other slide topics
+We plan to talk about and work on some special topics:
+- Software Support
+- Homelabs/Self-Hosing
+- Gaming
+- Security
+- CAD and CNC
+- Productivity Tools
+- Linux Hardships
+- *Local* AI
+- Technical writing
+- 3D Printing
+
+With roughly 7 meetings open, we will have a poll (and be open to suggestions)
+for what we should cover after mid-october
+
 
 == Wait??? Redacted?
 - In the past, we held *Installathons* to encourage participation and get people installing/using linux
