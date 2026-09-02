@@ -104,15 +104,14 @@ To contact the team, please use ``` @sudo``` in the Discord
 // Add with other slide topics
 We plan to talk about and work on some special topics:
 - Software Support
+- Security Practices
 - Homelabs/Self-Hosing
-- Gaming
-- Security
+- Gaming Compatability
 - CAD and CNC
 - Productivity Tools
 - Linux Hardships
 - *Local* AI
 - Technical writing
-- 3D Printing
 
 With roughly 7 meetings open, we will have a poll (and be open to suggestions)
 for what we should cover after mid-october
