@@ -29,22 +29,22 @@ Welcome Slides for the LCKSU
 - Referred to as LCKSU
 - Founded in the fall of 2024
 - \~140 members
-- We cover all levels of linux (and even some unix/alternative OS)
+- We cover all levels of Linux (and even some UNIX/alternative OS)
 - No matter your skill level, we have something you can learn here
-- We meet fridays at 4PM in *Room Pending*
+- We meet fridays at 4 PM in *Room Pending*
 
-== What We have Done
-- We have had many members make a bunch of projects using linux
-- You can refer to our club github #link("https://github.com/Linux-Club-KSU/")[here]
-- You can also talk to many members here about their projects as well (dont be afraid to ask!)
-- We also send teams of members to local Hackathons/Game-Jams (all using linux and open-source tools of course)
+== What We Have Done
+- We have had many members make a bunch of projects using Linux
+- You can refer to our club GitHub #link("https://github.com/Linux-Club-KSU/")[here]
+- You can also talk to many members here about their projects as well (don't be afraid to ask!)
+- We also send teams of members to local Hackathons/Game-Jams (all using Linux and open-source tools, of course)
 
 == Why We Do It
-- This club was formed because we wanted to build a linux community at KSU
+- This club was formed because we wanted to build a Linux community at KSU
 - Many were fed up with Windows and the corperate "slop" forced in our operating systems
 - Some wanted more freedom and control over their system
 - Some wanted better performance and hardware support
-- At its core, LCKSU wants to lower the barrier for learning and sharing linux and similar ideals
+- At its core, LCKSU wants to lower the barrier for learning and sharing Linux and similar ideals
 
 == Whats Special About These Slides
 - This presentation, and future, are written using a FOSS language known as *typst*
@@ -60,7 +60,7 @@ To contact the team, please use ``` @sudo``` in the Discord
   columns: (40%, 50%),
   stroke: none,
   align: center + horizon,
-  
+
   table.header([*Role*], [*Discord Name*]),
   table.hline(),
   // Content
@@ -77,14 +77,14 @@ To contact the team, please use ``` @sudo``` in the Discord
   columns: (40%, 50%),
   stroke: none,
   align: horizon,
-  
+
   table.header([*Date*], [*Topic*]),
   table.hline(),
   // Content
   [Sept. 4], [Welcome + Intro],
   [Sept. 11], [Guide to Distros],
   [Sept. 18], [Getting to a Desktop],
-  [Sept. 25], [The Users Manual],
+  [Sept. 25], [The User's Manual],
   [Oct. 2], [*REDACTED* Begin],
   [Oct. 9], [*REDACTED* End],
   [Oct. 16], [Pending],
@@ -94,7 +94,7 @@ To contact the team, please use ``` @sudo``` in the Discord
   [Nov. 13], [Pending],
   [Nov. 20], [Pending],
   [Dec. 4], [Pending],
-  [Dec. 11], [End of Semester Party]
+  [Dec. 11], [End-of-Semester Party]
 )
 
 - This schedule is subject to change within reason
@@ -111,24 +111,25 @@ We plan to talk about and work on some special topics:
 - Productivity Tools
 - Linux Hardships
 - *Local* AI
-- Technical writing
+- Technical Writing
+- 3D Printing
 
 With roughly 7 meetings open, we will have a poll (and be open to suggestions)
-for what we should cover after mid-october
+for what we should cover after mid-October
 
 
 == Wait??? Redacted?
-- In the past, we held *Installathons* to encourage participation and get people installing/using linux
+- In the past, we held *Installathons* to encourage participation and get people installing/using Linux.
 - As time went on these "special events" became less special and more like normal meetings with a special label.
-- This semester we want to do something _a bit different_
+- This semester we want to do something _a bit different_.
 
 == Hackathon
 #figure(image("assets/Hackathon_Poster.png"))
 
 == Future Collaborations
-We are currently working with professors at the college of computing and 
-software engineeering (CCSE) to have a multi-stage bootcamp covering multiple 
-levels of topics including:
+We are currently working with professors at the College of Computing and
+Software Engineeering (CCSE) to have a multi-stage bootcamp covering multiple
+levels of topics, including:
 - Installations (Distros & Daily Driving)
 - Interfaces (GUI & TTY)
 - Hardware functions & low-level operations
