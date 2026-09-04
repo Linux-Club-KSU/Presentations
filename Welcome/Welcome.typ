@@ -82,11 +82,11 @@ To contact the team, please use ``` @sudo``` in the Discord
   table.hline(),
   // Content
   [Sept. 4], [Welcome + Intro],
-  [Sept. 11], [Guide to Distros],
-  [Sept. 18], [Getting to a Desktop],
-  [Sept. 25], [The User's Manual],
-  [Oct. 2], [*REDACTED* Begin],
-  [Oct. 9], [*REDACTED* End],
+  [Sept. 11], [Pending],
+  [Sept. 18], [Guide to Distros],
+  [Sept. 25], [Getting to the Desktop],
+  [Oct. 2], [The User Manual],
+  [Oct. 9], [Pending],
   [Oct. 16], [Pending],
   [Oct. 23], [Pending],
   [Oct. 30], [Pending],
@@ -114,10 +114,10 @@ We plan to talk about and work on some special topics:
 - Technical Writing
 - 3D Printing
 
-With roughly 7 meetings open, we will have a poll (and be open to suggestions)
+With roughly 8 meetings open, we will have a poll (and be open to suggestions)
 for what we should cover after mid-October
 
-
+/*
 == Wait??? Redacted?
 - In the past, we held *Installathons* to encourage participation and get people installing/using Linux.
 - As time went on these "special events" became less special and more like normal meetings with a special label.
@@ -125,6 +125,7 @@ for what we should cover after mid-October
 
 == Hackathon
 #figure(image("assets/Hackathon_Poster.png"))
+*/
 
 == Future Collaborations
 We are currently working with professors at the College of Computing and
