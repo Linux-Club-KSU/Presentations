@@ -25,10 +25,16 @@ Self Hosting Slides for the LCKSU
 
 // Content
 == What is Self-Hosting?
+- Self-Hosting is the idea of providing yourself with serveices that are typically cloud-only or subscription lock
+
+== Some Common Examples
+- Jellyfin/plex - Netflix
+- Crafty - Minecraft Realms
+- Copyparty/Nextcloud - Onedrive
+- Gitea - Github
+- Any Others??
 
 == Why it is Important
 // Cover plex price increase
-
-== Some Popular Self-Hosted Services
 
 == Questions?
