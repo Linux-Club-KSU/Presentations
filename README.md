@@ -8,3 +8,6 @@ At the Linux Club at KSU (LCKSU), we are commited to upholding associated linux 
 
 ## Welcome Week
 This presentation covers who we are, and our plans for the semester, and will help us gather feedback leading into the semester.
+
+## Asahi
+This presentation covers the Asahi Linux project, and the steps required to run linux natively on M-series chips (up to M3).
