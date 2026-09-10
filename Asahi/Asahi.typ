@@ -32,7 +32,7 @@ Mac+Linux Slides for the LCKSU
 == But there was HOPE!
 - The #link("https://asahilinux.org/")[Asahi Linux Project] introduced Linux support through _reverse engineering_.
 - This project does not use any of Apple's code, making the project less likely to be taken down (some Apple engineers even support it).
-- It is *not* perfect, only supporting up to the base M3 (not M3 Pro or M3 Ultra) chip.
+- It is *not* perfect, only supporting up to the M3 Pro (not M3 Ultra) chip.
 
 == The Installing Process
 - Simply go to their website and run the script on any Mac you want to convert.
