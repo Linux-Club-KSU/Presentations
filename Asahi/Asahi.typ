@@ -58,3 +58,4 @@ About the slides
 - Within the next 2 weeks the schedule will be finalized from the poll (*GO VOTE*).
 - The top contenders will be presented first, with a possible runoff poll for the leftover topics (lots of ties, keep an eye out).
 - Next 3 meetings part of a "mini-series", _starting with distros_.
+- Please give me your student emails for official registration (we need to get numbers up!)
