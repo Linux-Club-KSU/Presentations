@@ -27,7 +27,7 @@ Mac+Linux Slides for the LCKSU
 == Linux On Mac Pre-2020
 - With _Intel-based_ Macs, installing Linux is almost like any old Windows machine (UEFI).
 - Minus some slight BIOS/UEFI differences, just download the amd64 or x86 installer and have fun!
-- With the introduction of the M-Series chips (November 2020), there was no way to get Linux running on the closed-source architecture.
+- With the introduction of the M-Series chips (November 2020), there was no way to get Linux running on the closed-source bootloader (or drivers).
 
 == But there was HOPE!
 - The #link("https://asahilinux.org/")[Asahi Linux Project] introduced Linux support through _reverse engineering_.
