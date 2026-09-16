@@ -28,3 +28,4 @@ This presentation kicks off the 3-week series, talking about all things distribu
 - Common Use Cases
 - What Makes Linux Different
 - Tips and Tricks
+- Conclusion of Guide to
