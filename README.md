@@ -11,3 +11,20 @@ This presentation covers who we are, and our plans for the semester, and will he
 
 ## Asahi
 This presentation covers the Asahi Linux project, and the steps required to run linux natively on M-series chips (up to M3).
+
+# Special Colletion (Guide to)
+The following presentations arc together to form an overall understanding on linux, starting with distributions and ending with general usage and "advanced" tips. While tailored more towards beginners, they are designed so that anyone, at any skill-level, can get something out of all of these slides. 
+
+## Guide to Distros
+This presentation kicks off the 3-week series, talking about all things distribution related. We cover the basics such as what they are and how they differ, as well as inviting collaboration to discuss what distributions we might recommend to people at different skill levels. Also, we cover how MacOS and other UNIX-adjacent systems relate to the great FOSS ecosystem.
+
+## Coming Soon - Guide to the First Install
+- Best practices
+- What to Avoid
+- Common Mistakes
+
+## Coming Soon - Guide to the Desktop
+- Popular Desktop Enviroments
+- Common Use Cases
+- What Makes Linux Different
+- Tips and Tricks
