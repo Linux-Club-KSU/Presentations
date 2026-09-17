@@ -152,4 +152,8 @@ Guide to Distros slides for the LCKSU
 
 = Questions?
 
-= Announcements
+== Announcements
+- October 9th Meeting: Self Hosting
+- "Linux Hardships" is also a *Guarenteed Topic* (most likely week after)
+- Other topics are tied, stay tuned for a runoff poll either tonight or tomorrow
+- We need _your help_, we need _emails_
