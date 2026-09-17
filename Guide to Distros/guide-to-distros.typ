@@ -1,3 +1,10 @@
+/*
+Guide to Distros slides for the LCKSU
+- Initial Draft by Camden Johnson,
+- Open to suggestions/pull requests by LCKSU members
+
+*/
+
 #import "@preview/slydst:0.1.5": *
 
 #show: slides.with(
