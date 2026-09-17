@@ -117,7 +117,7 @@ We plan to talk about and work on some special topics:
 With roughly 8 meetings open, we will have a poll (and be open to suggestions)
 for what we should cover after mid-October
 
-/*
+
 == Wait??? Redacted?
 - In the past, we held *Installathons* to encourage participation and get people installing/using Linux.
 - As time went on these "special events" became less special and more like normal meetings with a special label.
@@ -125,7 +125,7 @@ for what we should cover after mid-October
 
 == Hackathon
 #figure(image("assets/Hackathon_Poster.png"))
-*/
+
 
 == Future Collaborations
 We are currently working with professors at the College of Computing and
