@@ -43,6 +43,8 @@ Guide to Distros slides for the LCKSU
 - Policy Manual governs all packages.
 - Decisions settled by General Resolution.
 
+#align(center)[#image("assets/debian.png", width: 70pt)]
+
 
 == Arch
 *Derivatives:* SteamOS, Omarchy, Manjaro \
@@ -55,6 +57,8 @@ Guide to Distros slides for the LCKSU
 - Nothing is hidden or abstracted from the user.
 - Packages (PKGBUILDs) stay as close to upstream as possible.
 - Never leave the user with a question they can't answer (Arch Wiki).
+
+#align(center)[#image("assets/arch.png", width: 70pt)]
 
 
 == Fedora
@@ -69,6 +73,8 @@ Guide to Distros slides for the LCKSU
 - No proprietary codecs or drivers included by default.
 - First to ship systemd, Wayland-by-default, and PipeWire.
 
+#align(center)[#image("assets/fedora.png", width: 70pt)]
+
 
 == OpenSUSE
 *Derivatives:* N/A \
@@ -81,6 +87,8 @@ Guide to Distros slides for the LCKSU
 - YaST provides centralized configuration (kind of) rather than a sparse `/etc` directory.
 - All packages must pass rigorous testing.
 - Btrfs w/ Snapper allows system rollbacks for failed or bad updates.
+
+#align(center)[#image("assets/opensuse.png", width: 70pt)]
 
 
 == Gentoo
@@ -95,6 +103,8 @@ Guide to Distros slides for the LCKSU
 - USE flags control every package's feature set at compile-time.
 - No fixed init system or libc.
 
+#align(center)[#image("assets/gentoo.png", width: 70pt)]
+
 
 == NixOS
 *Derivatives:* N/A \
@@ -107,6 +117,8 @@ Guide to Distros slides for the LCKSU
 - All packages are managed declaratively; a single configuration file manages the system.
 - Provides a "well-defined state" for the system; little left to chance (no "it works on my machine").
 - Allows users to enforce consistency across many different machines/environments.
+
+#align(center)[#image("assets/nixos.png", width: 32pt)]
 
 
 = Related Systems: BSDs \ #text(0.6em, style: "italic")["Freedom, for the user (of the sources)."]
