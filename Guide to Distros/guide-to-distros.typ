@@ -157,3 +157,4 @@ Guide to Distros slides for the LCKSU
 - "Linux Hardships" is also a *Guaranteed Topic* (most likely week after)
 - Other topics are tied, stay tuned for a run-off poll either tonight or tomorrow
 - We need _your help_: we need _emails_
+- Pictures!
