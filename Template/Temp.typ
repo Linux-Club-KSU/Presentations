@@ -1,5 +1,5 @@
 /*
-Gaming on Linux Slides for the LCKSU
+Template on Linux Slides for the LCKSU
 - Initial Draft by JEvan234,
 - Open to suggestions/pull requests by LCKSU members
 
