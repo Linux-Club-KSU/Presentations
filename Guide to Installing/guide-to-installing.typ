@@ -34,14 +34,17 @@ Installing Linux Slides for the LCKSU
 - Any drive will work, *but it will be wiped*
 - Ideally you want over 8gb to account for larger installers
 
+#align(center)[#image("assets/IMG_3619.png", height: 80%)]
+
 == Creating a Bootable Instance
 // balena etcher
-- Install #link("https://etcher.balena.io/")[Balena Etcher]
+- We recommend Installing #link("https://etcher.balena.io/")[Balena Etcher]
 - Follow along with the instructions (3 easy clicks)
 - Be sure to select your install drive!
 
+#image("assets/BalenaScreenshot.png", width: 70%)
+
 // rpi imager for rpi
-#v(60%)
 - For Raspberry Pi installs, use the Rpi imager for all installs
 
 == Ventoys (Advanced)
@@ -51,17 +54,40 @@ Installing Linux Slides for the LCKSU
   - I recommend #link("https://gparted.org/livecd.php")[GpartedLive] for storage formatting
   - Any others?
 
-== Getting to Boot Options
+#align(center)[#image("assets/VentoyMenu.png", width: 60%)]
 
-== First Boot
-// selecting install vs just try out
 
-== Common choices
+== Getting through Boot Options
+- On a boot, spam the bios options key (commonly F12, but manufacuturer specific)
+- Select the USB drive as the boot option
+- Select the Install option from the grub menu
+- Follow the distros install guide/wizard
 
-== Opting in to data collection
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 1em,
+  align: center,
 
-= Questions
+  [
+    #figure(
+      image("assets/GrubMenu.png", width: 100%),
+      caption: [Grub Menu],
+    )
+  ],
+
+  [
+    #figure(
+      image("assets/DebianInstaller.png", width: 100%),
+      caption: [Installer Menu],
+    )
+  ],
+)
+
+= You have now booted Linux! \ Any Questions?
 
 = Join us next week for configuration!
 
 == Announcements
+- Next week wraps up the series
+- We are fighting hard to regularly meet in J2112
+- Keep answering the Polls!
