@@ -11,7 +11,7 @@ Template on Linux Slides for the LCKSU
 // Init + config title page
 #show: slides.with(
   title: "Guide to Using Linux",
-  subtitle: "Guide for Daily KDE driving linux",
+  subtitle: "Guide for Daily driving the KDE Desktop",
   date: none,
   authors: ("Linux Club at KSU (LCKSU)",),
   layout: "medium",
@@ -70,6 +70,7 @@ Template on Linux Slides for the LCKSU
     - Discover can update both applications and system software
     - Most applications do not need their own separate updater
     - You usually do not need to download installers from random websites
+    - Most updates don't force you to reboot your pc
   ],
 
   [#image("assets/discover.png", width: 100%)]
