@@ -180,3 +180,7 @@ Template on Linux Slides for the LCKSU
 
 = Questions?
 == Announcements
+- Schedule is Finalized!
+- Anyone not on Suitable?
+- Upcoming meetings (and possible projects)
+- Cluster
