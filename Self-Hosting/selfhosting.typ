@@ -25,16 +25,24 @@ Self Hosting Slides for the LCKSU
 
 // Content
 == What is Self-Hosting?
-- Self-Hosting is the idea of providing yourself with serveices that are typically cloud-only or subscription lock
+- Self-Hosting is the idea of providing yourself with services that are typically cloud-only or behind a subscription lock
+
+== Why Self-Host?
+- The average family spends almost \$300 a month on monthly subscriptions
+- Often time
+
 
 == Some Common Examples
 - Jellyfin/plex - Netflix
 - Crafty - Minecraft Realms
 - Copyparty/Nextcloud - Onedrive
 - Gitea - Github
-- Any Others??
 
 == Why it is Important
 // Cover plex price increase
+
+== Cost
+
+
 
 == Questions?
