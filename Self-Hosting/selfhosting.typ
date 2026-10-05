@@ -23,26 +23,55 @@ Self Hosting Slides for the LCKSU
 // Custom color rules
 #show link: set text(fill: blue, style: "italic")
 
+= Please save questions and comments until the end (If you must talk, do it outside)
+
 // Content
 == What is Self-Hosting?
 - Self-Hosting is the idea of providing yourself with services that are typically cloud-only or behind a subscription lock
+- Typically, this means running a lightweight linux distribution on a seperate (non-daily driver) machine, and accessing those services over the network.
+- For this presentation, we will be examining an ssh debian setup.
 
-== Why Self-Host?
-- The average family spends almost \$300 a month on monthly subscriptions
-- Often time
+= Why Self Host? \ #text(0.6em, style: "italic")[How much do you think families spend on online services monthly?]
 
+== Why Self Host
+- Cost: The average family spends over \$300 on monthly subscriptions (that is up \$90 from our April presentation)
+- Reliability: 80% of datacenters have had _at least one_ outage in the last 3 years
+- Privacy: 62% of american companies have had at least _some_ data leak *in the past year alone*
 
-== Some Common Examples
-- Jellyfin/plex - Netflix
-- Crafty - Minecraft Realms
-- Copyparty/Nextcloud - Onedrive
-- Gitea - Github
+== The Setup Today
+- Debian Server, SSH only
+- Older Intel-based machine
+- 20Gb of DDR3
+- Cost me 40 bucks all-in
 
-== Why it is Important
-// Cover plex price increase
+//insert pic of machine
 
-== Cost
+== Docker
+- After installation and accessing my machine over the network, I set up a few docker containers
 
+- Docker lets you sandbox/containerize different services, this helps with:
+  - Security
+  - Dependencies
+  - Port mappings (Different sevices using same ports)
+- Docker helps solve the "works on my machine" syndrome.
 
+== Accessing a service
+- Generally speaking, once the service is up, you can access it by \ 
+``` <your-server-ip>:<port>```
+- Follow the services guide for initial login
+- It is best practice to change passwords from defaults
 
-== Questions?
+== Accessing a Service (Improved)
+- DNS for mapping a name to an IP
+- Reverse Proxy for mapping that name to a port
+
+//drop in example graph
+
+== Accessing Ports over the Internet
+- There are a few ways to do this:
+  - VPN service like Tailscale
+  - Cloudflare Tunnelling
+  - Port Forwarding
+
+- Understand that there is inherent risk with hosting things to the internet, and making things publicly accessable
+- For smaller groups, I use tailscale
