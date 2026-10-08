@@ -11,7 +11,7 @@ Self Hosting Slides for the LCKSU
 // Init + config title page
 #show: slides.with(
   title: "Self-Hosting",
-  subtitle: "Why We Need It + A Beginners Guide",
+  subtitle: "Why We Need It + A Setup Guide",
   date: none,
   authors: ("Linux Club at KSU (LCKSU)",),
   layout: "medium",
@@ -37,6 +37,7 @@ Self Hosting Slides for the LCKSU
 - Cost: The average family spends over \$300 on monthly subscriptions (that is up \$90 from our April presentation)
 - Reliability: 80% of datacenters have had _at least one_ outage in the last 3 years
 - Privacy: 62% of american companies have had at least _some_ data leak *in the past year alone*
+  - _Personal Experience_: Old HS grading system got leaked, all of my transcripts, teacher info, and even SSN got leaked
 
 == The Setup Today
 - Debian Server, SSH only
@@ -55,11 +56,23 @@ Self Hosting Slides for the LCKSU
   - Port mappings (Different sevices using same ports)
 - Docker helps solve the "works on my machine" syndrome.
 
+#align(center)[#image("assets/docker-logos/SVG/docker-logo-ocean-blue.svg")]
+
+== Docker
+#align(center)[#image("assets/DockerPS1.png")]
+
+- Container ID = ID of the individual container (Hex String)
+- Image = What where the source is from
+- Command = What docker uses to start the container
+- Created = When the container was created
+- Status = Shows time up/down
+
 == Accessing a service
 - Generally speaking, once the service is up, you can access it by \ 
 ``` <your-server-ip>:<port>```
 - Follow the services guide for initial login
 - It is best practice to change passwords from defaults
+#align(center)[#image("assets/DockerPS2.png")]
 
 == Accessing a Service (Improved)
 - DNS for mapping a name to an IP
@@ -75,3 +88,9 @@ Self Hosting Slides for the LCKSU
 
 - Understand that there is inherent risk with hosting things to the internet, and making things publicly accessable
 - For smaller groups, I use tailscale
+
+= Questions?
+
+= Announcements
+
+= The Topic has now concluded \ Thank you!
