@@ -18,10 +18,8 @@ The following presentations arc together to form an overall understanding on lin
 ## Guide to Distros
 This presentation kicks off the 3-week series, talking about all things distribution related. We cover the basics such as what they are and how they differ, as well as inviting collaboration to discuss what distributions we might recommend to people at different skill levels. Also, we cover how MacOS and other UNIX-adjacent systems relate to the great FOSS ecosystem.
 
-## Coming Soon - Guide to the First Install
-- Best practices
-- What to Avoid
-- Common Mistakes
+## Guide to the First Install
+This presentation covers general installing steps, and serves as a great beginner guides for newer members. It builds on last weeks Distro discussion, and guides along the next steps to make that distribution a usable desktop.
 
 ## Coming Soon - Guide to the Desktop
 - Popular Desktop Enviroments
