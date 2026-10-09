@@ -11,7 +11,7 @@ Self Hosting Slides for the LCKSU
 // Init + config title page
 #show: slides.with(
   title: "Self-Hosting",
-  subtitle: "Why We Need It + A Beginners Guide",
+  subtitle: "Why We Need It + A Setup Guide",
   date: none,
   authors: ("Linux Club at KSU (LCKSU)",),
   layout: "medium",
@@ -23,18 +23,84 @@ Self Hosting Slides for the LCKSU
 // Custom color rules
 #show link: set text(fill: blue, style: "italic")
 
+= Please save questions and comments until the end (If you must talk, do it outside)
+
 // Content
 == What is Self-Hosting?
-- Self-Hosting is the idea of providing yourself with serveices that are typically cloud-only or subscription lock
+- Self-Hosting is the idea of providing yourself with services that are typically cloud-only or behind a subscription lock
+- Typically, this means running a lightweight linux distribution on a seperate (non-daily driver) machine, and accessing those services over the network.
+- You can find a ton of services to self-host by going to #link("https://awesome-selfhosted.net/")[Awesome Self Hosted]
+#align(center)[#image("assets/Selfhosting.png", width: 70%)]
 
-== Some Common Examples
-- Jellyfin/plex - Netflix
-- Crafty - Minecraft Realms
-- Copyparty/Nextcloud - Onedrive
-- Gitea - Github
-- Any Others??
+= Why Self Host? \ #text(0.6em, style: "italic")[How much do you think families spend on online services monthly?]
 
-== Why it is Important
-// Cover plex price increase
+== Why Self Host
+- Cost: The average family spends over \$300 on monthly subscriptions (that is up \$90 from our April presentation)
+- Reliability: 80% of datacenters have had _at least one_ outage in the last 3 years
+- Privacy: 62% of american companies have had at least _some_ data leak *in the past year alone*
+  - _Personal Experience_: Old HS grading system got leaked, all of my transcripts, teacher info, and even SSN got leaked
 
-== Questions?
+== The Setup Today
+- Debian Server, SSH only
+- Older Intel-based machine
+- 20Gb of DDR3
+- Cost me 40 bucks all-in
+
+//insert pic of machine
+#align(center)[#image("assets/Server.jpeg", width: 30%)]
+
+== Docker
+- After installation and accessing my machine over the network, I set up a few docker containers
+
+- Docker lets you sandbox/containerize different services, this helps with:
+  - Security
+  - Dependencies
+  - Port mappings (Different sevices using same ports)
+- Docker helps solve the "works on my machine" syndrome.
+
+#align(center)[#image("assets/docker-logos/SVG/docker-logo-ocean-blue.svg")]
+
+== Docker
+#align(center)[#image("assets/DockerPS1.png")]
+
+- Container ID = ID of the individual container (Hex String)
+- Image = What where the source is from
+- Command = What docker uses to start the container
+- Created = When the container was created
+- Status = Shows time up/down
+
+== Accessing a service
+- Generally speaking, once the service is up, you can access it by \ 
+``` <your-server-ip>:<port>```
+- Follow the services guide for initial login
+- It is best practice to change passwords from defaults
+#align(center)[#image("assets/DockerPS2.png")]
+
+== Accessing a Service (Improved)
+- DNS for mapping a name to an IP
+- Reverse Proxy for mapping that name to a ip & port
+  - Using an API key to get SSL certificates for https
+  - I use godaddy, but ive heard cloudflare is even easier
+- Graph on next slide
+
+//drop in example graph
+#align(center)[#image("assets/MyNetworkDiagram.png")]
+
+== Accessing Ports over the Internet
+- There are a few ways to do this:
+  - VPN service like Tailscale
+  - Cloudflare Tunnelling
+  - Port Forwarding
+
+- Understand that there is inherent risk with hosting things to the internet, and making things publicly accessable
+- For smaller groups, I use tailscale
+
+= Questions?
+
+== Announcements
+- If you missed the cluster group meeting, or want to join, talk to me *now*
+- Linux hardships meeting is next week
+- This meeting will _conclude at 9PM_ (pack up around 8:45)
+- *Merch* on the way (limited batches, must be careful about our current logo)
+
+= The Topic has now concluded \ Thank you!

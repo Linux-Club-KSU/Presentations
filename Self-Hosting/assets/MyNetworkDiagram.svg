@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3840"
+   height="2160"
+   viewBox="0 0 3840 2160"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
+   sodipodi:docname="MyNetworkDiagram.svg"
+   inkscape:export-filename="MyNetworkDiagram.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="0.87862976"
+     inkscape:cx="1712.3253"
+     inkscape:cy="766.53447"
+     inkscape:window-width="1920"
+     inkscape:window-height="1126"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect7"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect6"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="marker5"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path5" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="Triangle-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-4" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1-4"
+       is_visible="true"
+       lpeversion="1" />
+    <marker
+       style="overflow:visible"
+       id="Triangle-75"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Triangle arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-3" />
+    </marker>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect1-5"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:145.087px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;stroke:#000000;stroke-width:1.21119"
+       x="1858.0072"
+       y="167.55081"
+       id="text1"
+       transform="scale(0.90042003,1.1105928)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         x="1858.0072"
+         y="167.55081"
+         style="stroke-width:1.21119">Request</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:145.087px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;stroke:#000000;stroke-width:1.21119"
+       x="1420.1831"
+       y="864.69775"
+       id="text1-7"
+       transform="scale(0.90042003,1.1105928)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5"
+         x="1420.1831"
+         y="864.69775"
+         style="stroke-width:1.21119">pi-hole Container</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:145.087px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;stroke:#000000;stroke-width:1.21119"
+       x="316.58566"
+       y="1444.1786"
+       id="text1-9"
+       transform="scale(0.90042003,1.1105928)"><tspan
+         sodipodi:role="line"
+         id="tspan1-7"
+         x="316.58566"
+         y="1444.1786"
+         style="stroke-width:1.21119">NginX Reverse Proxy Container</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:145.087px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;stroke:#000000;stroke-width:1.21119"
+       x="45.943104"
+       y="1869.8351"
+       id="text1-93"
+       transform="scale(0.90042003,1.1105928)"><tspan
+         sodipodi:role="line"
+         id="tspan1-1"
+         x="45.943104"
+         y="1869.8351"
+         style="stroke-width:1.21119">Whatever Service that is requested</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:145.087px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;stroke:#000000;stroke-width:1.21119"
+       x="313.73907"
+       y="522.70746"
+       id="text1-4"
+       transform="scale(0.90042003,1.1105928)"><tspan
+         sodipodi:role="line"
+         id="tspan1-50"
+         x="313.73907"
+         y="522.70746"
+         style="stroke-width:1.21119">Tailscale Routing</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:11.131;stroke-dasharray:none"
+       id="rect1"
+       width="756.18335"
+       height="207.39206"
+       x="1563.8168"
+       y="32.607937"
+       ry="2.9371877" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:11.131;stroke-dasharray:none"
+       id="rect1-3"
+       width="1511.7454"
+       height="202.9541"
+       x="1164.1272"
+       y="797.0459"
+       ry="2.8743353" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:11.131;stroke-dasharray:none"
+       id="rect1-3-5"
+       width="2395.8728"
+       height="202.9541"
+       x="242.06357"
+       y="1437.0459"
+       ry="2.8743353" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:11.131;stroke-dasharray:none"
+       id="rect1-3-56"
+       width="2746.5735"
+       height="199.22032"
+       x="26.713268"
+       y="1920"
+       ry="2.8214557" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:11.131;stroke-dasharray:none"
+       id="rect1-3-52"
+       width="1511.7454"
+       height="202.9541"
+       x="208.25464"
+       y="418.52295"
+       ry="2.8743353" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:11.13093835;stroke-dasharray:none;marker-end:url(#Triangle)"
+       d="M 1640,235.94204 V 418.52295"
+       id="path1"
+       inkscape:path-effect="#path-effect1"
+       inkscape:original-d="m 1640,235.94204 c 0,63.56561 0,123.07326 0,182.58091"
+       transform="matrix(1,0,0,0.79697927,0,47.901125)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:11.131;stroke-dasharray:none;marker-end:url(#Triangle-7)"
+       d="M 1640,235.94204 V 418.52295"
+       id="path1-7"
+       inkscape:path-effect="#path-effect1-4"
+       inkscape:original-d="m 1640,235.94204 c 0,63.56561 0,123.07326 0,182.58091"
+       transform="matrix(1,0,0,2.4962392,560,-343.40228)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1333.33px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;stroke:#000000;stroke-width:9.937;stroke-dasharray:none;fill-opacity:1"
+       x="2640"
+       y="480"
+       id="text2"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         x="2640"
+         y="480" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.5728px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;fill-opacity:1;stroke:#000000;stroke-width:0.637753;stroke-dasharray:none"
+       x="2652.2266"
+       y="436.18781"
+       id="text3"
+       transform="scale(0.84777592,1.179557)"><tspan
+         sodipodi:role="line"
+         id="tspan3"
+         x="2652.2266"
+         y="436.18781"
+         style="stroke-width:0.637753">If on site (DNS Server)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.5728px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;fill-opacity:1;stroke:#000000;stroke-width:0.637753;stroke-dasharray:none"
+       x="1307.5316"
+       y="304.24445"
+       id="text3-4"
+       transform="scale(0.84777591,1.179557)"><tspan
+         sodipodi:role="line"
+         id="tspan3-3"
+         x="1307.5316"
+         y="304.24445"
+         style="stroke-width:0.637753">If off site</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:145.087px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;stroke:#000000;stroke-width:1.21119"
+       x="2643.2109"
+       y="1206.5629"
+       id="text1-7-0"
+       transform="scale(0.90042003,1.1105928)"><tspan
+         sodipodi:role="line"
+         id="tspan1-5-6"
+         x="2643.2109"
+         y="1206.5629"
+         style="stroke-width:1.21119">AT&amp;T Router</tspan></text>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:11.131;stroke-dasharray:none"
+       id="rect1-3-8"
+       width="1032.1979"
+       height="204.84473"
+       x="2264.4204"
+       y="1175.7736"
+       ry="2.9011111" />
+    <path
+       style="fill:#3f4f57;fill-opacity:1;stroke:#000000;stroke-width:11.131;stroke-dasharray:none;marker-end:url(#Triangle-7)"
+       d="M 2360,1000.1055 V 1160"
+       id="path3"
+       inkscape:path-effect="#path-effect3"
+       inkscape:original-d="m 2360,1000.1055 c 0,53.2278 0,106.5612 0,159.8945"
+       transform="matrix(1,0,0,0.85298005,0,147.03545)" />
+    <path
+       style="fill:#3f4f57;fill-opacity:1;stroke:#000000;stroke-width:11.131;stroke-dasharray:none;marker-end:url(#marker5)"
+       d="M 3302.9066,1278.1959 H 3840"
+       id="path4"
+       inkscape:path-effect="#path-effect4"
+       inkscape:original-d="m 3302.9066,1278.1959 c 174.8388,0 355.9661,0 537.0934,0"
+       transform="matrix(0.93145055,0,0,1,226.41243,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.5728px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;fill-opacity:1;stroke:#000000;stroke-width:0.637753;stroke-dasharray:none"
+       x="3680.2178"
+       y="1254.7084"
+       id="text3-4-4"
+       transform="scale(0.84777591,1.179557)"><tspan
+         sodipodi:role="line"
+         id="tspan3-3-9"
+         x="3680.2178"
+         y="1254.7084"
+         style="stroke-width:0.637753">To the internet</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.5728px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;fill-opacity:1;stroke:#000000;stroke-width:0.637753;stroke-dasharray:none"
+       x="2878.1191"
+       y="949.50903"
+       id="text3-4-7"
+       transform="scale(0.84777591,1.179557)"><tspan
+         sodipodi:role="line"
+         id="tspan3-3-1"
+         x="2878.1191"
+         y="949.50903"
+         style="stroke-width:0.637753">If not *.shotokan.systems</tspan></text>
+    <path
+       style="fill:#3f4f57;fill-opacity:1;stroke:#000000;stroke-width:11.131;stroke-dasharray:none;marker-end:url(#Triangle-7)"
+       d="m 1400,1003.637 v 592.9765"
+       id="path6"
+       inkscape:path-effect="#path-effect6"
+       inkscape:original-d="m 1400,1003.637 c 0,195.2342 0,394.1054 0,592.9765"
+       transform="matrix(1,0,0,0.6764285,0,324.74833)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.5728px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;fill-opacity:1;stroke:#000000;stroke-width:0.637753;stroke-dasharray:none"
+       x="505.43283"
+       y="998.6626"
+       id="text3-4-7-2"
+       transform="scale(0.84777591,1.179557)"><tspan
+         sodipodi:role="line"
+         id="tspan3-3-1-6"
+         x="505.43283"
+         y="998.6626"
+         style="stroke-width:0.637753">If *.shotokan.systems</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:85.5728px;font-family:'Adwaita Mono';-inkscape-font-specification:'Adwaita Mono';writing-mode:lr-tb;direction:ltr;fill:#3f4f57;fill-opacity:1;stroke:#000000;stroke-width:0.637753;stroke-dasharray:none"
+       x="1745.7444"
+       y="1525.9966"
+       id="text3-4-7-2-5"
+       transform="scale(0.84777591,1.179557)"><tspan
+         sodipodi:role="line"
+         id="tspan3-3-1-6-9"
+         x="1745.7444"
+         y="1525.9966"
+         style="stroke-width:0.637753">Converts *.shotokan.system to &lt;ip&gt;:&lt;port&gt;</tspan></text>
+    <path
+       style="fill:#3f4f57;fill-opacity:1;stroke:#000000;stroke-width:11.131;stroke-dasharray:none;marker-end:url(#Triangle-7)"
+       d="M 1400,1801.6315 V 1920"
+       id="path7"
+       inkscape:path-effect="#path-effect7"
+       inkscape:original-d="M 1400,1801.6315 C 1400,1840 1400,1880 1400,1920"
+       transform="matrix(1,0,0,1.7428239,0,-1495.1104)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:11.1309;stroke-dasharray:none;marker-end:url(#Triangle-75)"
+       d="M 1640,235.94204 V 418.52295"
+       id="path1-9"
+       inkscape:path-effect="#path-effect1-5"
+       inkscape:original-d="m 1640,235.94204 c 0,63.56561 0,123.07326 0,182.58091"
+       transform="matrix(1,0,0,0.75869348,0,442.46937)" />
+  </g>
+</svg>
