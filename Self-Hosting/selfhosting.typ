@@ -93,7 +93,7 @@ Self Hosting Slides for the LCKSU
   - Port Forwarding
 
 - Understand that there is inherent risk with hosting things to the internet, and making things publicly accessable
-- For smaller groups, I use tailscale
+- For smaller groups, I would recommend tailscale
 
 = Questions?
 
