@@ -29,7 +29,8 @@ Self Hosting Slides for the LCKSU
 == What is Self-Hosting?
 - Self-Hosting is the idea of providing yourself with services that are typically cloud-only or behind a subscription lock
 - Typically, this means running a lightweight linux distribution on a seperate (non-daily driver) machine, and accessing those services over the network.
-- For this presentation, we will be examining an ssh debian setup.
+- You can find a ton of services to self-host by going to #link("https://awesome-selfhosted.net/")[Awesome Self Hosted]
+#align(center)[#image("assets/Selfhosting.png", width: 70%)]
 
 = Why Self Host? \ #text(0.6em, style: "italic")[How much do you think families spend on online services monthly?]
 
@@ -46,6 +47,7 @@ Self Hosting Slides for the LCKSU
 - Cost me 40 bucks all-in
 
 //insert pic of machine
+#align(center)[#image("assets/Server.jpeg", width: 30%)]
 
 == Docker
 - After installation and accessing my machine over the network, I set up a few docker containers
@@ -76,9 +78,13 @@ Self Hosting Slides for the LCKSU
 
 == Accessing a Service (Improved)
 - DNS for mapping a name to an IP
-- Reverse Proxy for mapping that name to a port
+- Reverse Proxy for mapping that name to a ip & port
+  - Using an API key to get SSL certificates for https
+  - I use godaddy, but ive heard cloudflare is even easier
+- Graph on next slide
 
 //drop in example graph
+#align(center)[#image("assets/MyNetworkDiagram.png")]
 
 == Accessing Ports over the Internet
 - There are a few ways to do this:
@@ -91,6 +97,10 @@ Self Hosting Slides for the LCKSU
 
 = Questions?
 
-= Announcements
+== Announcements
+- If you missed the cluster group meeting, or want to join, talk to me *now*
+- Linux hardships meeting is next week
+- This meeting will _conclude at 9PM_ (pack up around 8:45)
+- *Merch* on the way (limited batches, must be careful about our current logo)
 
 = The Topic has now concluded \ Thank you!
