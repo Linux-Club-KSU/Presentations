@@ -25,6 +25,12 @@ Self Hosting Slides for the LCKSU
 
 = Please save questions and comments until the end (If you must talk, do it outside)
 
+== Announcements
+- If you missed the cluster group meeting, or want to join, talk to me *now*
+- Linux hardships meeting is next week
+- This meeting will _conclude at 9PM_ (pack up around 8:45)
+- *Merch* on the way (limited batches, must be careful about our current logo)
+
 // Content
 == What is Self-Hosting?
 - Self-Hosting is the idea of providing yourself with services that are typically cloud-only or behind a subscription lock
@@ -96,11 +102,5 @@ Self Hosting Slides for the LCKSU
 - For smaller groups, I would recommend tailscale
 
 = Questions?
-
-== Announcements
-- If you missed the cluster group meeting, or want to join, talk to me *now*
-- Linux hardships meeting is next week
-- This meeting will _conclude at 9PM_ (pack up around 8:45)
-- *Merch* on the way (limited batches, must be careful about our current logo)
 
 = The Topic has now concluded \ Thank you!
