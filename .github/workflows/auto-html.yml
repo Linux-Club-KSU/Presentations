@@ -1,0 +1,145 @@
+name: Build Typst wiki
+
+on:
+  push:
+    branches: [ "main", "testing-auto-html" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Typst
+        uses: typst-community/setup-typst@v4
+
+      - name: Compile every .typ file to HTML
+        shell: bash
+        run: |
+          # Everything compiled goes into this one folder
+          mkdir -p _site/compiledhtml
+
+          # Add more folders here to skip them (e.g. the template)
+          mapfile -t FILES < <(find . -name '*.typ' \
+            -not -path './_site/*' \
+            -not -path './.git/*' \
+            -not -path './Template/*' | sort)
+
+          : > _site/.entries
+          for f in "${FILES[@]}"; do
+            f="${f#./}"
+            out="_site/compiledhtml/${f%.typ}.html"
+            mkdir -p "$(dirname "$out")"
+            echo "Compiling $f -> $out"
+            if typst compile --root . --features html --format html "$f" "$out"; then
+              echo "${f%.typ}" >> _site/.entries
+            else
+              echo "::warning file=$f::Failed to compile, skipping"
+            fi
+          done
+
+          # Copy assets folders next to the HTML so relative paths
+          # (assets/foo.png) keep working inside compiledhtml/
+          find . -type d -name assets -not -path './_site/*' -not -path './.git/*' \
+            -exec cp -r --parents {} _site/compiledhtml \;
+
+          # Machine-readable list of every page, handy for your other site
+          jq -Rn '[inputs | {
+              name:   (split("/") | last),
+              folder: (split("/")[:-1] | join("/")),
+              path:   (. + ".html")
+            }]' _site/.entries > _site/compiledhtml/manifest.json
+
+      - name: Generate index page
+        shell: bash
+        run: |
+          {
+            cat <<'HTML'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Wiki</title>
+            <style>
+              body { font-family: system-ui, sans-serif; max-width: 48rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
+              input { width: 100%; padding: .5rem; font-size: 1rem; margin-bottom: 1rem; }
+              h2 { margin-top: 1.5rem; border-bottom: 1px solid #8884; }
+              ul { list-style: none; padding-left: 0; }
+              li { padding: .15rem 0; }
+            </style>
+          </head>
+          <body>
+            <h1>Wiki</h1>
+            <input id="q" type="search" placeholder="Search pages..." autofocus>
+          HTML
+
+            current=""
+            while IFS= read -r entry; do
+              dir="$(dirname "$entry")"
+              name="$(basename "$entry")"
+              [ "$dir" = "." ] && dir="Top level"
+              if [ "$dir" != "$current" ]; then
+                [ -n "$current" ] && echo "  </ul></section>"
+                echo "  <section><h2>$dir</h2><ul>"
+                current="$dir"
+              fi
+              # URL-encode spaces in the link
+              href="compiledhtml/${entry// /%20}.html"
+              echo "    <li><a href=\"$href\">$name</a></li>"
+            done < _site/.entries
+            [ -n "$current" ] && echo "  </ul></section>"
+
+            cat <<'HTML'
+            <script>
+              const q = document.getElementById('q');
+              q.addEventListener('input', () => {
+                const t = q.value.toLowerCase();
+                document.querySelectorAll('li').forEach(li => {
+                  li.style.display = li.textContent.toLowerCase().includes(t) ? '' : 'none';
+                });
+                document.querySelectorAll('section').forEach(s => {
+                  const any = [...s.querySelectorAll('li')].some(li => li.style.display !== 'none');
+                  s.style.display = any ? '' : 'none';
+                });
+              });
+            </script>
+          </body>
+          </html>
+          HTML
+          } > _site/index.html
+
+          rm _site/.entries
+          touch _site/.nojekyll
+
+      # Downloadable copy of just the compiled folder (Actions run page -> Artifacts)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: compiledhtml
+          path: _site/compiledhtml
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
