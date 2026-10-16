@@ -20,46 +20,44 @@ Hardships on Linux Slides for the LCKSU
   subslide-numbering: none,
 )
 
-#set text(size: 16pt)
-
 // Custom color rules
 #show link: set text(fill: blue, style: "italic")
 
 // Content
 = As with last week, save questions and comments until the end
-= Linux is Great \ #text(0.6em, style: "italic")[But it is not perfect]
+= Linux is great™ \ #text(0.6em, style: "italic")[but not perfect]
 
-== Package Managers - Implying
+== Package Managers — Implying
 - Different distros use different package managers
 - None are perfect
 - PMs are one of the biggest choices when picking a distro
 
-== Linux ports - Mr.Notation
+== Linux ports — Mr.Notation
 - Linux ports are second class at best
-- Often times developers do not maintain the same way as the windows build
-- EX: Borderlands 2, sid meiers Civ 6, Davinchi Resolve (officially supports 1 distro)
+- Often times developers do not maintain the same way as the Windows build
+- E.g., Borderlands 2, Sid Meier's Civ 6, Davinci Resolve (officially supports 1 distro)
 
-== Technical Debt and UI/UX - John Apple
+== Technical Debt and UI/UX — John Apple
 - Filesystem Hierarchy Standard is not standardized
 - Many overlapping/competing UI libraries create "Frankenstein" look
 - Weak leadership throughout the Linux ecosystem leads to duplicated efforts
 
-== Proton - MoltenCookie62
-- This ties to the previous discussion
-- With proton/bottles, its even less reason for devs to care about linux
+== Proton — MoltenCookie62
+- Ties into "Linux Ports"
+- With Proton/Bottles, it's even less reason for devs to care about Linux
 #v(10%)
-Devils advocate: Easier for solo devs, at least they let us use the tools
+Devil's Advocate: Easier for solo devs, at least they let us use the tools
 
 = Tying back to our discussion last week
 
-== The Community - BLT Sandwich
+== The Community — BLT Sandwich
 - Super easy to be in our own little bubbles
 - Its important to remember to be open, and understand how jokes might come across to those who don't understand
 
 = Questions
 
 == Announcements
-- Cluster project is now closed, unless we have made prior arragements to talk, we are no longer accepting new members.
-- This meeting concludes topics for October, free days next few weeks.
+- Cluster project is now closed, unless we have made prior arragements to talk, we are no longer accepting new members
+- This meeting concludes topics for October, free days next few weeks
   - we will be here on the 30th, but I dont expect much turnout, and will likely close early
 - If you missed last week, come talk to me
