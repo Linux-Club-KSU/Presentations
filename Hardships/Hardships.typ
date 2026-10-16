@@ -39,6 +39,11 @@ Hardships on Linux Slides for the LCKSU
 - Often times developers do not maintain the same way as the windows build
 - EX: Borderlands 2, sid meiers Civ 6, Davinchi Resolve (officially supports 1 distro)
 
+== Technical Debt and UI/UX - John Apple
+- Filesystem Hierarchy Standard is not standardized
+- Many overlapping/competing UI libraries create "Frankenstein" look
+- Weak leadership throughout the Linux ecosystem leads to duplicated efforts
+
 == Proton - MoltenCookie62
 - This ties to the previous discussion
 - With proton/bottles, its even less reason for devs to care about linux
