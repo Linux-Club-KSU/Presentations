@@ -24,6 +24,7 @@ Hardships on Linux Slides for the LCKSU
 #show link: set text(fill: blue, style: "italic")
 
 // Content
+= As with last week, save questions and comments until the end
 = Linux is Great \ #text(0.6em, style: "italic")[But it is not perfect]
 
 == Package Managers - Implying
@@ -36,10 +37,10 @@ Hardships on Linux Slides for the LCKSU
 
 == The Community - BLT Sandwich
 
-= The Solution?
-
-== There is none!
-
 = Questions
 
 == Announcements
+- Cluster project is now closed, unless we have made prior arragements to talk, we are no longer accepting new members.
+- This meeting concludes topics for October, free work days next few weeks.
+  - we will be here on the 30th, but I dont expect much turnout, and will likely close early
+- If you missed last week, come talk to me
