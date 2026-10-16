@@ -45,8 +45,8 @@ Hardships on Linux Slides for the LCKSU
 == Proton — MoltenCookie62
 - Ties into "Linux Ports"
 - With Proton/Bottles, it's even less reason for devs to care about Linux
-#v(10%)
-Devil's Advocate: Easier for solo devs, at least they let us use the tools
+#v(70%)
+*Devil's Advocate:* Easier for solo devs, at least they let us use the tools
 
 = Tying back to our discussion last week
 
