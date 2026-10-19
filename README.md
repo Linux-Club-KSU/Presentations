@@ -24,7 +24,7 @@ This presentation kicks off the 3-week series, talking about all things distribu
 This presentation covers general installing steps, and serves as a great beginner guides for newer members. It builds on last weeks Distro discussion, and guides along the next steps to make that distribution a usable desktop.
 
 ## Guide to the Desktop
-This presentation is an introduction to the KDE Desktop environment (the most windows-like). and serves as a bridge connecting linux habits and a familiar UI. 
+Concluding the three week series, this presentation is an introduction to the KDE Desktop environment (the most windows-like). and serves as a bridge connecting linux habits and a familiar UI. 
 
 ---
 
