@@ -24,21 +24,23 @@ Windows Club joke meeting on Linux Slides for the LCKSU
 #show link: set text(fill: blue, style: "italic")
 
 // Content
-= Save comments for the end please!
+= Save comments until the end, please!
 
-= can linux it run league of legends?
+= Can Linux run League of Legends?
 
-= FreeCAD? Oh is it like solidworks but bad?
+= FreeCAD? Like Solidworks, but bad?
 
-= Why would I care about ram usage? Just buy more?
+= Why would I care about RAM usage? Just buy more?
 
-= The telemetry data is just there to make windows better!
+= The telemetry data is just there to make Windows better!
 
-= Does Linux even have microsoft defender?
+= Does Linux even have Microsoft Defender?
 
-= Wheres the copilot AI?
+= Wheres the Copilot AI?
 
-= Yeah but does it come with a linkedin keyboard shortcut?
+= Yeah, but does it come with a LinkedIn keyboard shortcut?
+
+(I play the Zip puzzle every day! — Camden)
 
 = Thank you!
 
