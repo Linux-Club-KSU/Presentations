@@ -28,19 +28,19 @@ Windows Club joke meeting on Linux Slides for the LCKSU
 
 = Can Linux run League of Legends?
 
-= FreeCAD? Like Solidworks, but bad?
+= FOSS? Is that an AI model?
 
 = Why would I care about RAM usage? Just buy more?
 
 = The telemetry data is just there to make Windows better!
 
-= Does Linux even have Microsoft Defender?
-
 = Wheres the Copilot AI?
 
-= Yeah, but does it come with a LinkedIn keyboard shortcut?
+== Yeah, but does it come with a LinkedIn keyboard shortcut?
 
-(I play the Zip puzzle every day! — Camden)
+\
+\
+- "I play the Zip puzzle every day!" — Camden
 
 = Thank you!
 
